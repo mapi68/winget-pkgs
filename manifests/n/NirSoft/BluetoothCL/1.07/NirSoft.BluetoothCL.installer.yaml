@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: NirSoft.BluetoothCL
+PackageVersion: 1.07
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: BluetoothCL.exe
+ReleaseDate: 2014-02-16
+Installers:
+- Architecture: x86
+  InstallerUrl: https://www.nirsoft.net/utils/bluetoothcl.zip
+  InstallerSha256: 025A4A02527A533299370BE128323E4A2443FDE0F404B2CF8793B3748C0C531F
+ManifestType: installer
+ManifestVersion: 1.10.0
